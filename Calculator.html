@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <style>
+        #calculator{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            row-gap: 6px;
+            column-gap: 6px;
+        }
+        .button, .buttonequals{
+            width:65px;
+            height:65px;
+            font-size: x-large;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-weight: 600;
+            color: black;
+            background-color: white;
+            align-items: center; 
+            justify-content: center;
+            border: 1px solid grey;
+            padding:0px;
+            border-color: gray;
+            border-radius: 10px;
+            display: flex;
+            box-sizing: border-box;
+        }
+        .buttonequals{
+            background-color: orange;
+        }
+        .bigbutton{
+            width: 270px;
+            height: 60px;
+            border: 30px;
+            border-color: grey;
+            background-color: rgb(228, 213, 213);
+            border-radius:10px;
+            align-items: center;
+            display: flex;
+            justify-content: flex-end;
+            padding-right: 15px;
+            box-sizing: border-box;
+            
+        }
+        .outerbox{
+            width: 280px;
+            padding: 15px;
+            background-color: rgb(85, 81, 81);
+            border-radius: 30px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+    </style>
+</head>
+<body>
+<center>
+    <br><br><br><br><br>
+    <div class="outerbox"><br>
+        <div class="bigbutton" style="font-size: x-large;color: black; font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif">0</div>
+        <br>
+        <div id="calculator">
+        <div class="button">7</div>
+        <div class="button">8</div>
+        <div class="button">9</div>
+        <div class="button">÷</div>
+        <div class="button">4</div>
+        <div class="button">5</div>
+        <div class="button">6</div>
+        <div class="button">×</div>
+        <div class="button">1</div>
+        <div class="button">2</div>
+        <div class="button">3</div>
+        <div class="button">-</div>
+        <div class="button">0</div>
+        <div class="button">.</div>
+        <div class="button">+</div>
+        <div class="buttonequals">=</div>
+    </div>
+</center>
+</body>
+</html>
