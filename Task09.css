@@ -1,0 +1,64 @@
+.cartoon1{
+    border: 2px;
+    margin: 20px;
+    padding: 20px;
+    width: 200px;
+    height: 150px;
+    background-image: url("https://i.pinimg.com/originals/d5/b0/50/d5b050abdf73203ef0f2eae1345bdbd1.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: rgb(247, 250, 251);
+    font-size: large;
+    text-align: left;
+}
+.button1{
+    background-color: rgb(24, 24, 84);
+    color: white;
+}
+.cartoon2{
+    border: 2px;
+    margin: 20px;
+    padding: 20px;
+    width: 200px;
+    height: 150px;
+    background-image: url("https://th.bing.com/th/id/OIP.hEQYO5Dd4w-5XCggeI2-EAHaEQ?rs=1&pid=ImgDetMain");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: rgb(247, 250, 251);
+    font-size: large;
+    text-align: left;
+}
+.button2{
+    background-color: rgb(64, 10, 118);
+    color: white;
+}
+.cartoon3{
+    border: 2px;
+    margin: 20px;
+    padding: 20px;
+    width: 200px;
+    height: 150px;
+    background-image: url("https://wallpapercave.com/wp/wp5870005.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: rgb(247, 250, 251);
+    font-size: large;
+    text-align: left;
+}
+.button3{
+    background-color: rgba(8, 110, 120, 0.778);
+    color: white;
+}
+input::placeholder{
+    width: 300px;
+    height: 20px;
+    color: white;
+    opacity: 0.9;
+}
+.placeholder{
+    color: white;
+    background-color: rgb(229, 60, 60);
+}
