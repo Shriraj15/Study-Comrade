@@ -1,0 +1,12 @@
+.blue{
+    display: flex;
+    width: 150px;
+    height: 200px;
+    background-color: aqua;
+    border-collapse: collapse;
+    justify-content: center;
+    align-items: center;
+}
+.task{
+    display: flex;
+}
