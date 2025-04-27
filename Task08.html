@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 08</title>
+    <style>
+        .food{
+            background-image: url("https://wallpapers.com/images/hd/plain-grey-background-flu1jhrcpcc8aape.jpg");
+            background-position: center;
+        }
+        .rotatingimage{
+            height: 200px;
+            width: 200px;
+            animation: spin 15s linear infinite;
+        }
+        @keyframes spin{
+            from { transform: rotate(0deg); }
+            to { transform: rotate(360deg); }
+
+        }
+    </style>
+</head>
+<body>
+    <center>
+        <img src="https://pnggallery.com/wp-content/uploads/swiggy-logo-01.png" height="150" width="150">
+        <form target="_blank" action="https://www.swiggy.com/search">
+        <div>
+            <h1 class="food" style="font-family: 'Times New Roman', Times, serif; text-align:center;">Are you starving? </h1>
+            <p style="font-family: Verdana, Geneva, Tahoma, sans-serif;font-size: large; text-align: center;">Within a few clicks, find foods </p>
+            <p style="font-family: Verdana, Geneva, Tahoma, sans-serif; font-size: large; text-align: center;">that are accessible near you</p> 
+            <button style="border-radius: 20px;">Order now</button> 
+            <br><br>
+            <span>
+                <img class="rotatingimage" style="display: flex;" src="https://static.vecteezy.com/system/resources/thumbnails/022/972/615/small_2x/japanese-noodle-ramen-bowl-png.png" height="200" width="200">
+            </span>
+        </div>
+        </form>
+    </center>
+</body>
+</html>
